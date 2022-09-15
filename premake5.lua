@@ -9,14 +9,6 @@ workspace "AddressBook"
 		"Release",
 		"Dist"
 	} 
-
-	platforms {
-		"win64",
-		"win32",
-		"linux64",
-		"linux86",
-		"macos"
-	}
 	
 	flags
 	
@@ -58,16 +50,6 @@ project "AddressBook"
 
 	filter "system:windows"
 		systemversion "latest"
-
-	filter "platforms:win64"
-
-	filter "platforms:linux64"
-
-	filter "platforms:win32"
-
-	filter "platforms:linux86"
-
-	filter "platforms:macos"
 
 	filter "configurations:Debug"
 		runtime "Debug"

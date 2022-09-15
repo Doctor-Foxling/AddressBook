@@ -1,6 +1,3 @@
-// AddressBook.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "base.h"
 #include "pch.h"
 
@@ -116,6 +113,8 @@ int main()
 
     int exit;
     std::cin >> exit;
+
+    delete addrBook;
 
     return 0;
 }
