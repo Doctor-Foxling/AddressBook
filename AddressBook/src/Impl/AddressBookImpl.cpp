@@ -97,7 +97,7 @@ for (auto ent_pair : m_fNameRef)
 return vec;
 }
 
-void Foundry::AddressBookImpl::printEntriesByFName()
+void AddressBookImpl::printEntriesByFName()
 {
 for (auto i : m_fNameRef)
 {
