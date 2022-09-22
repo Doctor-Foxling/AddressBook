@@ -6,8 +6,6 @@
 
 int main()
 {
-    using namespace Foundry;
-
     // Creating new Entries
     Shared<Entry> entry   = EntryImpl::Create("Hamza",    "Khan");
     Shared<Entry> entry2  = EntryImpl::Create("HGamza",   "erhan");
@@ -25,7 +23,7 @@ int main()
     Shared<Entry> entry13 = EntryImpl::Create("Logan",    "Ninefinger","07566235656");
     Shared<Entry> entry14 = EntryImpl::Create("Robert",   "Jordan", "07522435156");
 
-    auto* addrBook = new Foundry::AddressBookImpl();
+    auto* addrBook = new AddressBookImpl();
 
     addrBook->addEntry(entry);
     addrBook->addEntry(entry2);
