@@ -2,7 +2,7 @@
 
 <img src=https://github.com/Doctor-Foxling/AddressBook/blob/master/Images/flowChart.PNG>
 
-This is an AddressBook program written for the Foundry interview test. The source code follows the abstract factory design pattern which makes program:
+This is an AddressBook program written for an interview test. The source code follows the abstract factory design pattern which makes program:
 <ul>
 <li>More Scalable</li>
 <li>Easy to contribute to</li>
