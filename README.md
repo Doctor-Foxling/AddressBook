@@ -105,7 +105,7 @@ Entries can thus be created in the follwing way:
 An AdressBookImpl object can be created and the entries can be added like so:
 
 ```c++
-auto* addrBook = new Foundry::AddressBookImpl(); // Needs to use smart pointers
+auto* addrBook = new AddressBookImpl(); // Needs to use smart pointers
 
     addrBook->addEntry(entry);
     addrBook->addEntry(entry2);
