@@ -9,7 +9,7 @@ This is an AddressBook program written for an interview test. The source code fo
 <li>Easy to wrap with Mock Tests</li>
 </ul>
 
-The code makes use of smart pointers wherever possible which makes the code memory safe (This can make the code less readable).
+The code makes use of smart pointers wherever possible which makes the code memory safe.
 
 # Build Instructions
 The project was built using VisualStudio 2019 targetting C++14. Premake is used to build the project.
